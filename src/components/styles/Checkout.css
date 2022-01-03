@@ -1,0 +1,67 @@
+.checkout {
+  display: flex;
+  padding: 0px;
+  height: max-content;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.checkout-left {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.checkout-fill-wallet {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkout-right {
+  width: 300px;
+  margin: 15px;
+}
+
+.checkout-fill-wallet > button {
+  width: 100px;
+  max-height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  outline: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.checkout-ad {
+  width: 6.5%;
+  min-width: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.checkout-basket {
+  background-color: white;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.checkout-title {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border-bottom: 1px solid lightgray;
+  font-size: 34px;
+  font-weight: 400;
+}

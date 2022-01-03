@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(234, 237, 237);
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+button {
+  border-radius: 30px;
+  border: none;
+  height: 30px;
+  background-color: #ffd814;
+}
+
+button:hover {
+  background-color: #e6c20f;
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
